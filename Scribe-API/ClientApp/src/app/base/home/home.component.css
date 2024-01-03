@@ -1,0 +1,50 @@
+.homeTopImage {
+  display: block;
+  width: 100%;
+  height: 500px;
+  object-fit:cover;
+  background: url('../../../assets/Home/ScribeCover.jpg');
+  background-size: cover;
+}
+
+.titleBox {
+  background-color: #BFBFBF;
+  display:flex;
+  align-self:center;
+  height:400px;
+  padding:40px;
+  min-width:450px;
+  max-width:550px;
+}
+
+.buttonBox {
+  flex-flow: column wrap;
+  align-self: center;
+}
+.buttonBoxChild {
+  width: 40%;
+  height: 40%;
+  margin: 4px;
+}
+
+.toolsSection {
+  display: flex;
+  flex-direction: column;
+  background-color: #BFBFBF;
+}
+
+.toolBox {
+  margin: 2%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-content: center center;
+  background-color: #DADADA;
+  border-radius: 10px;
+  width:33%;
+}
+.toolImg {
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}

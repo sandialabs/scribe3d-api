@@ -1,0 +1,49 @@
+/*Remove weird outline when clicking on things. No clue why this is happening*/
+:focus {
+  outline: 0 !important;
+}
+.primaryColorBG {
+  background-color: #212121;
+}
+
+.accentColorBG {
+  background-color: #80CBC4;
+}
+
+.warnColorBG {
+  background-color: #EF9A9A;
+}
+.vertAlign {
+  display: flex;
+  align-items: center;
+}
+
+.rowItem {
+  padding-right: 15px;
+}
+.colItem {
+  padding-down: 15px;
+}
+.strong {
+  font-weight: 700;
+}
+.pageContainer{
+    margin:10px;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+a, u {
+  text-decoration: none !important;
+}
+.noHoverBlack:hover {
+  text-decoration: none;
+  color: black;
+}
+.noHoverWhite:hover {
+  text-decoration: none;
+  color: white;
+}
